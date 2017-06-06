@@ -1,0 +1,74 @@
+h2{
+    text-align: center;
+    
+    color: black;
+    
+}
+
+h2:hover{
+    color: aqua;
+}
+
+.map{
+    overflow : hidden;
+    
+    /*background-color: linear-gradient(to right, #FF512F 0%, #DD2476 51%, #FF512F 100%);*/
+}
+
+.mapImage{
+    width: 50%;
+    float: left;
+}
+
+.mapImage path{
+    stroke: white;
+    fill: black;
+    stroke-width : 1px;
+    transition : fill 0.3s;
+}
+
+.mapImage .is-active path{
+    fill: aqua;/*#37ED00;/*
+    /*fill: linear-gradient(to right, #FF512F 0%, #DD2476 51%, #FF512F 100%);*/
+    stroke-width : 3px;
+    stroke : #0DEDE6;
+   
+}
+
+.mapList{
+    float: right;
+    width: 50%;
+    justify-content: center;
+}
+
+.mapList a{
+    color: black;
+    text-decoration: none;
+    transition: 0.3s;  
+}
+
+.mapList a.is-active {
+    color: aqua;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+ul{
+    padding-left: 100px;
+    padding-right: 200px;
+    padding-top: 100px;
+    font-size: 25px;
+    
+}
+
+/*.mapList a is-active{
+    color: chartreuse;
+    font-weight: bold;
+    text-decoration: underline;
+}/*
+
