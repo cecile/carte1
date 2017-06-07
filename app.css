@@ -40,7 +40,7 @@ h2:hover{
 }
 
 .mapImage .is-active path{
-    fill: black;
+    fill: gray;
     stroke-width : 2px;
     stroke : white;
    
